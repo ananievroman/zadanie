@@ -26,6 +26,16 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index_1.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -48,6 +58,7 @@
         <option value="$PROJECT_DIR$/firstgitproject/third_file.txt" />
         <option value="$PROJECT_DIR$/tacoman-2/index.html" />
         <option value="$PROJECT_DIR$/index_1.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -188,12 +199,12 @@
       <option name="presentableId" value="Default" />
       <updated>1470144314693</updated>
       <workItem from="1470144315881" duration="18749000" />
-      <workItem from="1470439055197" duration="17000" />
+      <workItem from="1470439055197" duration="795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18766000" />
+    <option name="totallyTimeSpent" value="19544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -241,11 +252,18 @@
     <entry file="file://$PROJECT_DIR$/firstgitproject/rename.txt" />
     <entry file="file://$PROJECT_DIR$/tacoman-2/index.html" />
     <entry file="file://$PROJECT_DIR$/firstgitproject/third_file.txt" />
-    <entry file="file://$PROJECT_DIR$/index_1.php" />
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/index_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
       </provider>
