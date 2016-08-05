@@ -76,19 +76,19 @@
     echo '<pre>';
     print_r($car);
     echo '</pre>';
-
+    echo "CAR bmw<br>";
     foreach ($car as $item) {
         echo $item['0'].' ';
     }
+    echo "<br>CAR Toyota<br>";
     foreach ($car as $item) {
         echo $item['1'].'';
     }
+    echo "<br>CAR Opel<br>";
     foreach ($car as $item) {
         echo $item['2'].' ';
     }
-    foreach ($car as $item) {
-        echo $item['3'].' ';
-    }
+
     echo "<hr>";
 
     echo "Задание #7 <br><br>";
@@ -118,9 +118,10 @@
     echo $str ."<br>";
     $Array = explode(" ",$str);
     print_r($Array);
+    echo "<br>";
 
     $kolichestvo_elementov_massiva = count($Array);
-    echo $kolichestvo_elementov_massiva ."<br>";
+
 
     while ($kolichestvo_elementov_massiva >= 0) {
         echo $Array[$kolichestvo_elementov_massiva] . '/';
