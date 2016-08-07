@@ -1,8 +1,9 @@
+   <meta charset="utf-8"/>
     <?php
     echo "Задание #1 <br><br>";
 
     $name = "Roman";
-    $age = 28;
+    $age  = 28;
 
     echo "My name is $name <br>";
     echo "I am $age old <br>";
@@ -10,18 +11,20 @@
     echo "<hr>";
 
     echo "Задание #2 <br><br>";
-    $pictures = 80;
+    //можешь выравнить код он читается так легче))
+    $pictures        = 80;
     $marker_pictures = 23;
     $pencil_pictures = 40;
-    $color_pictures = $pictures - $marker_pictures - $pencil_pictures;
-
+    $color_pictures  = $pictures - $marker_pictures - $pencil_pictures;
+    //поч англ?
+    //и не описал условие задачи
     echo " Na shkolnoy vistavke  risunkov kraskami bilo  $color_pictures <br><br>";
     echo "<hr>";
 
     echo "Задание #3 <br><br>";
     const SOME_CONST = 28;
 
-    if (defined("SOME_CONST")){
+    if (defined("SOME_CONST")){ //не по psr-2
         echo SOME_CONST . "<br>"; //
     }
 
@@ -34,7 +37,7 @@
     echo "Задание #4 <br><br>";
 
     $age = 0;
-
+    //блок не по psr-2 нехватает пробелов
     if($age >= 18 && $age <= 65){
         echo " <br> Вам еще работать и работать<br>";
     }
@@ -68,10 +71,10 @@
 
     echo "Задание #6 <br><br>";
 
-    $bmv = [ "model" => "X5", "speed" => 120, "doors" => 5, "year" => "2015"];
+    $bmv    = [ "model" => "X5", "speed"     => 120, "doors" => 5, "year" => "2015"];
     $toyota = [ "model" => "Corola", "speed" => 135, "doors" => 5, "year" => "2009"];
-    $opel = [ "model" => "Cadet", "speed" => 145, "doors" => 5, "year" => "2010"];
-    $car = array_merge_recursive($bmv, $toyota, $opel);
+    $opel   = [ "model" => "Cadet", "speed"  => 145, "doors" => 5, "year" => "2010"];
+    $car    = array_merge_recursive($bmv, $toyota, $opel);
 
     echo '<pre>';
     print_r($car);
@@ -93,7 +96,7 @@
 
     echo "Задание #7 <br><br>";
 
-    echo "<table><tr>";
+    echo "<table><tr>"; //в блоках есть ошибки по psr-2
     for ($i = 1; $i <= 10; $i++) {
         for ($j = 1; $j <= 10; $j++) {
             if($i % 2 == 0 && $j % 2== 0) {
@@ -116,7 +119,7 @@
 
     $str = "In God We Trust";
     echo $str ."<br>";
-    $Array = explode(" ",$str);
+    $Array = explode(" ",$str);//не хватает пробела
     print_r($Array);
     echo "<br>";
 
@@ -129,5 +132,5 @@
     }
 
 
-
+//скобка лишния не по psr-2
     ?>
